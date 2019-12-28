@@ -36,6 +36,7 @@ Steps:
    git add .
     git config --global user.email "you@example.com"
      git config --global user.name "Your Name"
-     git remote add origin git@github.com:username/new_repo
-    git push -u origin master
+     ssh: git remote add origin git@github.com:username/new_repo
+     http : git remote add origin https://github.com/username/new_repo
+     git push -u origin master
     
