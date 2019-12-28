@@ -40,3 +40,5 @@ Steps:
      http : git remote add origin https://github.com/username/new_repo
      git push -u origin master
     
+11.generate ssh key
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
